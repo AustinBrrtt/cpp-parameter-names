@@ -1,0 +1,22 @@
+<idea-plugin>
+    <id>io.austinbarrett.cpp-parameter-names</id>
+    <name>Adds inline parameter names to C++ files.</name>
+    <vendor email="austin@austinbarrett.io" url="https://austinbarrett.io">Austin Barrett</vendor>
+
+    <description><![CDATA[
+    This plugin adds inline parameter names to C++ files.
+    ]]></description>
+
+    <depends>com.intellij.modules.cidr.lang</depends>
+    <depends>com.intellij.modules.clion</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <annotator language="" implementationClass="io.austinbarrett.cppparameternames.ParameterAnnotator" />
+    </extensions>
+
+<!--    <actions>-->
+
+<!--    </actions>-->
+
+
+</idea-plugin>
