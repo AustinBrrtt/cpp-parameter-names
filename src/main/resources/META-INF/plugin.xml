@@ -12,11 +12,8 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <annotator language="" implementationClass="io.austinbarrett.cppparameternames.ParameterAnnotator" />
+        <codeInsight.parameterNameHints language="ObjectiveC" implementationClass="io.austinbarrett.cppparameternames.CppParameterNameHints" />
     </extensions>
-
-<!--    <actions>-->
-
-<!--    </actions>-->
 
 
 </idea-plugin>
